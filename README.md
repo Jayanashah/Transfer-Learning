@@ -1,4 +1,4 @@
-Transfer Learning for Selective Attention Decoding in Cochlear Implant (CI) Users
+Transfer Learning in Cochlear Implant (CI) Users
 -----------------------------------------------------------------------------------------------------
 Overview
 -------------
