@@ -1,0 +1,27 @@
+
+#1.png: 
+#Box Plot: 25 subject values build the population performace(25*1) --> report as boxplots
+
+T test unpaired results for different decision_windows
+Decision Window: 2s - T-Statistic: -4.7251, P-Value: 0.0000, Degrees of Freedom: 51
+Decision Window: 5s - T-Statistic: -5.0966, P-Value: 0.0000, Degrees of Freedom: 51
+Decision Window: 10s - T-Statistic: -4.6338, P-Value: 0.0000, Degrees of Freedom: 51
+Decision Window: 20s - T-Statistic: -4.3321, P-Value: 0.0001, Degrees of Freedom: 51
+Decision Window: 30s - T-Statistic: -5.1576, P-Value: 0.0000, Degrees of Freedom: 51
+Decision Window: 60s - T-Statistic: -4.7133, P-Value: 0.0000, Degrees of Freedom: 51
+
+FDR T-Test Results (Unpaired) with FDR Correction:
+Decision Window: 2s - T-Statistic: -4.7251, Corrected P-Value: 0.0000, Reject H0: True, Degrees of Freedom: 51
+Decision Window: 5s - T-Statistic: -5.0966, Corrected P-Value: 0.0000, Reject H0: True, Degrees of Freedom: 51
+Decision Window: 10s - T-Statistic: -4.6338, Corrected P-Value: 0.0000, Reject H0: True, Degrees of Freedom: 51
+Decision Window: 20s - T-Statistic: -4.3321, Corrected P-Value: 0.0001, Reject H0: True, Degrees of Freedom: 51
+Decision Window: 30s - T-Statistic: -5.1576, Corrected P-Value: 0.0000, Reject H0: True, Degrees of Freedom: 51
+Decision Window: 60s - T-Statistic: -4.7133, Corrected P-Value: 0.0000, Reject H0: True, Degrees of Freedom: 51. 
+
+#2.png: Line Plot: the mean of 25 subject performance for each of 12 trials total mean of (25*12=300) accuracies --> overall performace for different decision windows
+
+decision_windows = ["2", "5", "10", "20", "30", "60"]
+ci_accuracies [55.79872618658014, 58.68243902486013, 62.11917804417805, 65.8186507936508, 67.65, 71.33333333333334] 
+nh_accuracies [60.98387389723037, 67.08176275118974, 71.96800595238095, 77.55172902494331, 81.62698412698413, 87.05357142857143] 
+
+95% chance level
